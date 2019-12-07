@@ -1,6 +1,6 @@
 language: nodejs
 script:
-  - cd mainpage
-  - npm install
-  - npm test
-  - npm build
+  - node --version
+  - npm --version
+  - ls -al
+  - ifconfig
