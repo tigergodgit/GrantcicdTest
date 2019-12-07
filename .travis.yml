@@ -1,6 +1,6 @@
 language: nodejs
-before_script:
-  - npm install
-
 script:
+  - cd mainpage
+  - npm install
   - npm test
+  - npm build
