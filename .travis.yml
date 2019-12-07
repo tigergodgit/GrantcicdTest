@@ -1,6 +1,9 @@
 language: nodejs
+node_js:
+  - "13"
 script:
   - node --version
   - npm --version
   - ls -al
   - ifconfig
+  - docker version
