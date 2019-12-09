@@ -1,7 +1,7 @@
 node {  
-customWorkspace './server'
     stage('Build') { 
-        echo 'Hello World---1'
+        dir('./server'){
+            echo 'Hello World---1'
             echo 'Hello World---2'
             echo 'Hello World---3'
             echo 'Hello World---4'
@@ -11,9 +11,9 @@ customWorkspace './server'
             echo 'Hello World---8'         
             sh 'pwd'
             sh 'ls -all'
-            sh 'cd server'
             sh 'pwd'
             sh 'ls -all'
+        }
     }
     stage('Test') { 
         echo 'Hello World---1'
