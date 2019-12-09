@@ -8,6 +8,7 @@ node {
             echo 'Hello World---6'
             echo 'Hello World---7'
             echo 'Hello World---8'
+            customWorkspace './server'
             sh 'pwd'
             sh 'ls -all'
             sh 'cd server'
